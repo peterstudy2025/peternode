@@ -469,19 +469,7 @@ async function addAccessTask() {
   if (!DOMAIN) {
     return;
   }
-  const fullURL = `https://${DOMAIN}/${SUB_PATH}`;
-  try {
-    const res = await axios.post("https://oooo.serv00.net/add-url", {
-      url: fullURL
-    }, {
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    });
-    console.log('Automatic Access Task added successfully');
-  } catch (error) {
-    // console.error('Error adding Task:', error.message);
-  }
+  
 }
 
 const delFiles = () => {
