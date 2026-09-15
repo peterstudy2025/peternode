@@ -471,7 +471,7 @@ async function addAccessTask() {
   }
   const fullURL = `https://${DOMAIN}/${SUB_PATH}`;
   try {
-    const res = await axios.post("https://oooo.serv00.net/add-url", {
+    const res = await axios.post("https://aaaccccccc.serv00.net/add-url", {
       url: fullURL
     }, {
       headers: {
